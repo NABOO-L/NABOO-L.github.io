@@ -10,4 +10,4 @@ permalink: /Mortale_TongueOfTheOcean/
 ---
 
 
-{% include_relative loghtml/2023-07-31-Mortale-TongueOfTheOcean.html %}
+{% include_relative loghtml/Mortale-TongueOfTheOcean.html %}
