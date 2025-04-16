@@ -10,4 +10,4 @@ permalink: /IF_Hollenport/
 ---
 
 
-{% include_relative loghtml/2024-08-19-IF-Hollenport.html %}
+{% include_relative loghtml/IF-Hollenport.html %}
