@@ -70,7 +70,7 @@ social-network-links:
 
 # 포스트 하단에 활성화할 SNS 공유 아이콘입니다. 사용하지 않으려면 false 로 지정해주세요.
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   linkedin: false
   vk: false
