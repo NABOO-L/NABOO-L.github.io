@@ -10,4 +10,4 @@ permalink: /Rucil_Summerheart/
 ---
 
 
-{% include_relative loghtml/2024-02-28-Rucil-Summerheart.html %}
+{% include_relative loghtml/Rucil-Summerheart.html %}
