@@ -10,4 +10,4 @@ permalink: /Mortale_yourWinter/
 ---
 
 
-{% include_relative loghtml/2025-03-29-Mortale-yourWinter.html %}
+{% include_relative loghtml/Mortale-yourWinter.html %}
