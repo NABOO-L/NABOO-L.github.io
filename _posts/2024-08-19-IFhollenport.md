@@ -6,7 +6,7 @@ cover-img: assets/img/@HAk_nonb.jpg
 thumbnail-img: assets/img/240602_11.png
 share-img: assets/img/@HAk_nonb.jpg
 tags: [IF]
-permalink: /open_testlog/
+permalink: /IF_Hollenport/
 ---
 
 
