@@ -685,22 +685,22 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding: 6.25rem 0;
+  padding: 4.375rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
 
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 2.063rem;
+  font-size: 1.375rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 1.25rem;
+  font-size: 1.375rem;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.125rem;
   line-height: 1.1;
   display: block;
   font-family: 'SCoreDream', Helvetica, sans-serif;
