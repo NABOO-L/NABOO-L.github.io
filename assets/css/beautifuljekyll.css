@@ -643,7 +643,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0.85;
+  opacity: 1;
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -653,22 +653,42 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   -moz-transition: opacity 1s linear;
   transition: opacity 1s linear;
 }
+
+/* ⬇️ 여기 새로 끼운 부분 */
+.intro-header .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(62, 78, 91, 0.36); /* 원하는 투명도 */
+  z-index: 1;
+}
+
+.intro-header .page-heading,
+.intro-header .post-heading {
+  position: relative;
+  z-index: 2;
+}
+/* ⬆️ 여기까지 overlay 스타일 */
+
 .intro-header .page-heading {
   text-align: center;
 }
+
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
+
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 3.125rem;
+  font-size: 2.063rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 2.1875rem;
+  font-size: 1.25rem;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
