@@ -22,7 +22,7 @@ body {
   font-size: 0.938rem;
   color: {{ site.text-col | default: "#232E38" }};
   position: relative;
-  background-color: {{ site.page-col | default: "#FFFFFF" }};
+  background-color: {{ site.page-col | default: "#FBF8F5" }};
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
@@ -845,7 +845,7 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #FBF8F5;
   margin: 0;
   padding: 0;
 }
