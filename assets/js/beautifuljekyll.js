@@ -71,7 +71,7 @@ var BeautifulJekyllJS = {
         setTimeout(function(){
           var img = $("<div></div>").addClass("big-img-transition").css("background-image", 'url(' + src + ')');
           $(".intro-header.big-img").prepend(img);
-          setTimeout(function(){ img.css("opacity", "1"); }, 50);
+          setTimeout(function(){ img.css("opacity", "0.85"); }, 50);
 
           // after the animation of fading in the new image is done, prefetch the next one
           //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
