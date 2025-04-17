@@ -134,25 +134,20 @@ img {
     background-attachment: fixed;
     background-position: center center;    /* 수평+수직 중앙 정렬 */
     background-repeat: no-repeat;          /* 반복 방지 */
-    background-size: cover;                /* 크기 조정 */
+    background-size: contain;                /* 크기 조정 */
   {% endif %}
 
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
-  
-  /* 네비게이션 바 세로 길이 증가 */
-  padding-top: 2.5rem;  /* 상단 패딩을 좀 더 늘려서 높이 증가 */
-  padding-bottom: 2.5rem; /* 하단 패딩도 늘려서 높이 증가 */
-}
 
 /* 스크롤 시 변화하는 스타일 */
 /* .navbar만 타겟팅 */
 .navbar.top-nav-short {
-  padding-top: 1.5rem;  /* 스크롤 후 상단 패딩 */
-  padding-bottom: 1.5rem;  /* 스크롤 후 하단 패딩 */
+  padding-top: 2.5rem;  /* 스크롤 후 상단 패딩 */
+  padding-bottom: 5rem;  /* 스크롤 후 하단 패딩 */
   background-color: rgba(0, 0, 0, 0.8);  /* 배경 어두워지기 */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 그림자 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* 그림자 */
 }
 
 
