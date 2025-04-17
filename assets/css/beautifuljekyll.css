@@ -127,6 +127,7 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#E3DFDD" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  margin-bottom: 3.125rem;
   font-family: 'Gmarket Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
