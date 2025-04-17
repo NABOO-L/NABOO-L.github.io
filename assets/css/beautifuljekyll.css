@@ -3,7 +3,6 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
-@import url('https://cdn.jsdelivr.net/gh/webfontworld/sCoreDream/sCoreDream.css');
 @font-face {
      font-family: 'S-CoreDream-3Light';
      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
@@ -20,7 +19,6 @@ html {
 
 body {
   font-family: 'S-CoreDream-3Light', sans-serif;
-  
   font-size: 0.938rem;
   color: {{ site.text-col | default: "#232E38" }};
   position: relative;
