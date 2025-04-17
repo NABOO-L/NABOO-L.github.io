@@ -11,9 +11,9 @@ var BeautifulJekyllJS = {
   // Shorten the navbar after scrolling a little bit down with animation
   $(window).scroll(function() {
     if ($(window).scrollTop() > 50) {
-      $(".navbar").addClass("top-nav-short");
+      $(".navbar-custom").addClass("top-nav-short");
     } else {
-      $(".navbar").removeClass("top-nav-short");
+      $(".navbar-custom").removeClass("top-nav-short");
     }
   });
 
