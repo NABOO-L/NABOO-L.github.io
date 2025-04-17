@@ -134,6 +134,7 @@ img {
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#9EAAB5" }};
   margin-bottom: 3.125rem;
   font-family: 'S-CoreDream-3Light', 'Helvetica Neue', Helvetica, sans-serif;
+  
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
@@ -141,16 +142,24 @@ img {
     background-repeat: no-repeat;          /* 반복 방지 */
     background-size: cover;                /* 크기 조정 */
   {% endif %}
+
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+  
+  /* 네비게이션 바 세로 길이 증가 */
+  padding-top: 2.5rem;  /* 상단 패딩을 좀 더 늘려서 높이 증가 */
+  padding-bottom: 2.5rem; /* 하단 패딩도 늘려서 높이 증가 */
 }
 
-.navbar-custom,
-.navbar-custom {
-  padding-top: 1.875rem;     /* 원하는 만큼 증가 (예: 2rem ≒ 32px) */
-  padding-bottom: 1.875rem;
+/* 스크롤 시 변화하는 스타일 */
+.navbar-custom.top-nav-short {
+  padding-top: 1.5rem;  /* 스크롤 후 줄어드는 상단 패딩 */
+  padding-bottom: 1.5rem;  /* 스크롤 후 줄어드는 하단 패딩 */
+  background-color: rgba(0, 0, 0, 0.8);  /* 배경색 어두워지기 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);  /* 그림자 효과 */
 }
+
 
 .navbar-custom .navbar-brand {
   line-height: 1.5;
