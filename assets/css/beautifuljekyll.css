@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Gmarket Sans', 'Open Sans', sans-serif;
+  font-family: 'Gmarket Sans', sans-serif;
   font-size: 0.938rem;
   color: {{ site.text-col | default: "#232E38" }};
   position: relative;
@@ -29,7 +29,7 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Gmarket Sans', 'Open Sans', sans-serif;
+  font-family: 'Gmarket Sans', sans-serif;
   font-weight: 700;
   line-height: 1.1;
 }
@@ -139,10 +139,9 @@ img {
 }
 
 .navbar-custom,
-.navbar-custom.top-nav-short,
-.navbar-custom.top-nav-short-permanent {
-  padding-top: 0;
-  padding-bottom: 0;
+.navbar-custom {
+  padding-top: 1.875rem;     /* 원하는 만큼 증가 (예: 2rem ≒ 32px) */
+  padding-bottom: 1.875rem;
 }
 
 .navbar-custom .navbar-brand {
@@ -448,7 +447,7 @@ footer .footer-custom-content {
 
 .post-preview a {
   text-decoration: none;
-  font-family: 'Gmarket Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Gmarket Sans', sans-serif;
   color: {{ site.text-col | default: "#232E38" }};
 }
 
@@ -459,21 +458,22 @@ footer .footer-custom-content {
 }
 
 .post-preview .post-title {
-  font-size: 1.688rem;
+  font-size: 1.563rem;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
   margin: 0;
   font-weight: 300;
+  margin-top: 0.188rem;
   margin-bottom: 0.625rem;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #9EAAB5;
   font-size: 0.938rem;
-  font-style: italic;
+  font-style: normal;
   margin: 0 0 0.625rem;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Gmarket Sans', 'Times New Roman', serif;
 }
 .post-heading .post-meta {
   display: inline-block;
@@ -545,7 +545,7 @@ footer .footer-custom-content {
 
 @media (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 2.063rem;
+    font-size: 1.876rem;
   }
 }
 
