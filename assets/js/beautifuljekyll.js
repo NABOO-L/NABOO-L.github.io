@@ -11,18 +11,18 @@ var BeautifulJekyllJS = {
     // Shorten the navbar after scrolling a little bit down with animation
     $(window).scroll(function() {
       if ($(window).scrollTop() > 50) {
-        $(".navbar-custom").addClass("top-nav-short");
+        $(".navbar").addClass("top-nav-short");
       } else {
-        $(".navbar-custom").removeClass("top-nav-short");
+        $(".navbar").removeClass("top-nav-short");
       }
     });
 
     // On mobile, hide the avatar when expanding the navbar menu
     $('#main-navbar').on('show.bs.collapse', function () {
-      $(".navbar-custom").addClass("top-nav-expanded");
+      $(".navbar").addClass("top-nav-expanded");
     });
     $('#main-navbar').on('hidden.bs.collapse', function () {
-      $(".navbar-custom").removeClass("top-nav-expanded");
+      $(".navbar").removeClass("top-nav-expanded");
     });
 
     // show the big header image
