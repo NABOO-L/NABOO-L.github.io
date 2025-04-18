@@ -142,7 +142,7 @@ img {
   transition: padding .5s ease-in-out;
 
 .navbar-custom {
-  padding-top: 2.5rem;  /* 상단 패딩을 좀 더 늘려서 높이 증가 */
+  padding-top: 1.5rem;  /* 상단 패딩을 좀 더 늘려서 높이 증가 */
   padding-bottom: 3rem; /* 하단 패딩을 늘려서 높이 증가 */
 }
 
