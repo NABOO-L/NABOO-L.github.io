@@ -134,7 +134,7 @@ img {
     background-attachment: fixed;
     background-position: center center;    /* 수평+수직 중앙 정렬 */
     background-repeat: no-repeat;          /* 반복 방지 */
-    background-size: contain;                /* 크기 조정 */
+    background-size: cover;                /* 크기 조정 */
   {% endif %}
 
   -webkit-transition: padding .5s ease-in-out;
@@ -143,7 +143,7 @@ img {
 
 .navbar-custom {
   padding-top: 2.5rem;  /* 상단 패딩을 좀 더 늘려서 높이 증가 */
-  padding-bottom: 5rem; /* 하단 패딩을 늘려서 높이 증가 */
+  padding-bottom: 3rem; /* 하단 패딩을 늘려서 높이 증가 */
 }
 
 /* 스크롤 시 변화하는 스타일 */
