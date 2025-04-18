@@ -132,9 +132,9 @@ img {
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
-    background-position: center center;    /* 수평+수직 중앙 정렬 */
+    background-position: center;    /* 수평+수직 중앙 정렬 */
     background-repeat: no-repeat;          /* 반복 방지 */
-    background-size: cover;                /* 크기 조정 */
+    background-size: contain;                 /* 크기 조정 */
   {% endif %}
 
   -webkit-transition: padding .5s ease-in-out;
